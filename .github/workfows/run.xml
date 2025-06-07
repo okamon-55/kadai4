@@ -1,0 +1,16 @@
+2025/06/04 25
+# 設定ファイル作成
+user@uvm:~/actions$ vim .github/workflows/test.yml
+name: same_test
+on: [push]
+jobs:
+io_test:
+name: Use Linux commands
+runs-on: ubuntu-latest
+steps:
+-name: Checkout
+uses: actions/checkout@v4
+-name: Permission Setting
+run: chmod +x same.sh test_same.sh
+-name: Test Run
+run: ./test_same.sh
