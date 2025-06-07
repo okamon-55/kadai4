@@ -8,6 +8,6 @@ steps:
 -name: Checkout
 uses: actions/checkout@v4
 -name: Permission Setting
-run: chmod +x same.sh test_same.sh
+run: chmod +x GCD.sh GCD_test.sh
 -name: Test Run
-run: ./test_same.sh
+run: ./GCD_test.sh
