@@ -1,6 +1,5 @@
 2025/06/04 25
 # 設定ファイル作成
-user@uvm:~/actions$ vim .github/workflows/test.yml
 name: same_test
 on: [push]
 jobs:
