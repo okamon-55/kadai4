@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # テスト対象のスクリプト
-SCRIPT="./gcd.sh"
+SCRIPT="./GCD.sh"
 
 # 総テスト数・成功数カウント用
 total=0
